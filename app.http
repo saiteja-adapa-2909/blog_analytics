@@ -1,11 +1,5 @@
-###
-GET http://localhost:3000/api/blog-stats
-###
+# GET request to /api/blog-stats
+curl http://localhost:3000/api/blog-stats
 
-curl --request GET \
-  --url https://intent-kit-16.hasura.app/api/rest/blogs \
-  --header 'x-hasura-admin-secret: 32qR4KmXOIpsGPQKMqEJHGJS27G5s7HdSKO3gdtQd2kv5e852SiYwWNfxkZOBuQ6'
-
-###
-GET http://localhost:3000/api/blog-search?query=privacy
-###
+# GET request to /api/blog-search with query parameter "privacy"
+curl http://localhost:3000/api/blog-search?query=privacy
